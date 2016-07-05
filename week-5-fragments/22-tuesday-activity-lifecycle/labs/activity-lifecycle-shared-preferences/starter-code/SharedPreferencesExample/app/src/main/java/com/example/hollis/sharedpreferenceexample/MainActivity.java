@@ -1,13 +1,11 @@
 package com.example.hollis.sharedpreferenceexample;
 
+import android.os.Bundle;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ListView listView;
@@ -26,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         //inserts weathers into our database
         //TODO: THIS WILL RUN ON ONCREATE EVERY TIME, USE SHAREDPREFERENCES TO MAKE IT NOT HAPPEN
+
         Weather weather1 = new Weather("Monday", 20, 78, 295);
         Weather weather2 = new Weather("Tuesday", 4, 23, 232);
         Weather weather3 = new Weather("Wednesday", 2, 42, 123);
