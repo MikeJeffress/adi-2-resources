@@ -21,7 +21,17 @@ public class MainActivity extends AppCompatActivity {
         mNameEditText = (EditText)findViewById(R.id.name_edit_text);
         mHelloTextView = (TextView)findViewById(R.id.hello_message_text);
 
-        //TODO: Restore the state here
+
+        //TimeSaved
+        if (savedInstanceState != null) {
+            if (savedInstanceState.getInt("mTimesSaved") >=0) {
+                //pull number of time saved
+
+                //pull out the name and set text
+
+            }
+
+        }
 
 
         Button nameSubmitButton = (Button) findViewById(R.id.name_submit_button);
