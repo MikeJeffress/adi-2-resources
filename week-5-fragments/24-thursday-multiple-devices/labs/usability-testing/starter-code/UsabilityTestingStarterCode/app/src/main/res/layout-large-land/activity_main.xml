@@ -2,6 +2,11 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
     <fragment class="generalassembly.yuliyakaleda.usabilitytestingstartercode.ListFragment"
         android:id="@+id/list_frag"
         android:layout_width="match_parent"
@@ -11,5 +16,5 @@
         android:id="@+id/web_frag"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
+</FrameLayout>
 </FrameLayout>

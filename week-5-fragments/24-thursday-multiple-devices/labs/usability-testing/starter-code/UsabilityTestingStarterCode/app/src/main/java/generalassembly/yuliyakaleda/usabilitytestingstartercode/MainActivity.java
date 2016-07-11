@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO: Create a separate layout xml file for tablet devices.
 
+    //Example of how this will be written and where
+      public void onStringSent(String textToSend){
         View view = findViewById(R.id.web_view);
           if (view == null){
             //this is a phone
